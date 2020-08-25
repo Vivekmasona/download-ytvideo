@@ -1,0 +1,23 @@
+{
+  "name": "video-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon public/index.js",
+    "start": "node public/index.js"
+  },
+  "author": "Samuel Trevisan Orlato",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.4",
+    "ytdl-core": "^3.2.0",
+    "ytdl-getinfo": "^1.1.0"
+  }
+}

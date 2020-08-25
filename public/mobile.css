@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+h1{
+    font-family: 'Khula', sans-serif;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    color: #444B54;
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 1.2%;
+    margin-bottom: 4%;
+    font-family: 'Heebo', sans-serif;
+    background-color: white;
+    border: 0.20vh solid rgb(243, 243, 243);
+    transition: 0.3s;
+    color: #444B54;
+}
+input:focus{
+    border: 0.20vh solid #71C2FF;
+    border-radius: 1vh;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+button{
+    margin-right: 2%;
+    margin-left: 2%; 
+    width: 63%;
+    padding: 1%;
+    font-family: 'Heebo', sans-serif;
+    background-color: #71C2FF;
+    border: 0.20vh solid #71C2FF;
+    border-radius: 1vh;
+    transition: 0.3s;
+    color: #444B54;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+}
