@@ -34,6 +34,7 @@ input:focus{
 button{
     margin-right: 2%;
     margin-left: 2%; 
+    margin-bottom: 2%;
     width: 10vw;
     padding: 1%;
     font-family: 'Heebo', sans-serif;
