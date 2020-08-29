@@ -36,4 +36,14 @@ app.get('/downloadmp3', (req, res) => {
         }).pipe(res);
 });
 
+app.get('/downloadogg', (req, res) => {
+    var URL = req.query.URL;
+
+    res.header('Content-Disposition', `attachment;filename="music.ogg"`);
+    
+    ytdl(URL, {
+        format: "ogg"
+        }).pipe(res);
+});
+
 
