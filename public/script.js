@@ -1,8 +1,9 @@
-
-
 var MP4Button = document.getElementById("mp4");
 var MP3Button = document.getElementById("mp3");
 var OGGButton = document.getElementById("ogg");
+var tGPButton = document.getElementById("3gp");
+var AACButton = document.getElmentById("aac");
+var FLVButton = document.getElementById("flv");
 var urlInput = document.getElementById("url");
 
 MP4Button.onclick = function(){
@@ -27,4 +28,28 @@ OGGButton.onclick = function(){
 
 function sendURLogg(URL){
     window.location.href = `https://download-ytvideo.herokuapp.com/downloadogg?URL=${URL}`;
+}
+
+tGPButton.onclick = function(){
+    sendURL3gp(urlInput.value);
+}
+
+function sendURL3gp(URL){
+    window.location.href = `https://download-ytvideo.herokuapp.com/download3gp?URL=${URL}`;
+}
+
+AACButton.onclick = function(){
+    sendURLaac(urlInput.value);
+}
+
+function sendURLaac(URL){
+    window.location.href = `https://download-ytvideo.herokuapp.com/downloadaac?URL=${URL}`;
+}
+
+FLVButton.onclick = function(){
+    sendURLflv(urlInput.value);
+}
+
+function sendURLflv(URL){
+    window.location.href = `https://download-ytvideo.herokuapp.com/downloadflv?URL=${URL}`;
 }

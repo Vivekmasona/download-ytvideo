@@ -46,4 +46,32 @@ app.get('/downloadogg', (req, res) => {
         }).pipe(res);
 });
 
+app.get('/download3gp', (req, res) => {
+    var URL = req.query.URL;
 
+    res.header('Content-Disposition', `attachment;filename="video.3gp"`);
+    
+    ytdl(URL, {
+        format: "3gp"
+        }).pipe(res);
+});
+
+app.get('/downloadaac', (req, res) => {
+    var URL = req.query.URL;
+
+    res.header('Content-Disposition', `attachment;filename="music.aac"`);
+    
+    ytdl(URL, {
+        format: "aac"
+        }).pipe(res);
+});
+
+app.get('/downloadflv', (req, res) => {
+    var URL = req.query.URL;
+
+    res.header('Content-Disposition', `attachment;filename="video.flv"`);
+    
+    ytdl(URL, {
+        format: "flv"
+        }).pipe(res);
+});
