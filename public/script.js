@@ -2,7 +2,7 @@ var MP4Button = document.getElementById("mp4");
 var MP3Button = document.getElementById("mp3");
 var OGGButton = document.getElementById("ogg");
 var tGPButton = document.getElementById("3gp");
-var AACButton = document.getElmentById("aac");
+var AACButton = document.getElementById("aac");
 var FLVButton = document.getElementById("flv");
 var urlInput = document.getElementById("url");
 
