@@ -75,6 +75,14 @@ app.get('/downloadflv', (req, res) => {
         format: "flv"
         }).pipe(res);
 });
+
+
+app.use(function(req, res, next) {
+    var err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+});
+
 app.use(function(req, res, next){
     res.status(404).sendFile("404.html", {root: __dirname})
-})
+});
