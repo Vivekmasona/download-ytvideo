@@ -6,7 +6,7 @@
 
 ## http://download-ytvideo.herokuapp.com/
 
-A website made with Node.js for download videos/musics from YouTube
+A website made with Node.js for download videos/musics from YouTube (I'm working for a new version of this website, that will made with ReactJS)
 
 Formats:
 - [x] MP3
