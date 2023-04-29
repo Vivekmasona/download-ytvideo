@@ -11,7 +11,7 @@ MP4Button.onclick = function(){
 }
 
 function sendURLmp4(URL){
-    window.location.href = `https://download-ytvideo.herokuapp.com/downloadmp4?URL=${URL}`;
+    window.location.href = `https://try2-tyzx.onrender.com/downloadmp4?URL=${URL}`;
 }
 
 MP3Button.onclick = function(){
@@ -19,7 +19,7 @@ MP3Button.onclick = function(){
 }
 
 function sendURLmp3(URL){
-    window.location.href = `https://download-ytvideo.herokuapp.com/downloadmp3?URL=${URL}`;
+    window.location.href = `https://try2-tyzx.onrender.com/downloadmp3?URL=${URL}`;
 }
 
 OGGButton.onclick = function(){
@@ -27,7 +27,7 @@ OGGButton.onclick = function(){
 }
 
 function sendURLogg(URL){
-    window.location.href = `https://download-ytvideo.herokuapp.com/downloadogg?URL=${URL}`;
+    window.location.href = `https://try2-tyzx.onrender.com/downloadogg?URL=${URL}`;
 }
 
 tGPButton.onclick = function(){
@@ -35,7 +35,7 @@ tGPButton.onclick = function(){
 }
 
 function sendURL3gp(URL){
-    window.location.href = `https://download-ytvideo.herokuapp.com/download3gp?URL=${URL}`;
+    window.location.href = `https://try2-tyzx.onrender.com/download3gp?URL=${URL}`;
 }
 
 AACButton.onclick = function(){
@@ -51,5 +51,5 @@ FLVButton.onclick = function(){
 }
 
 function sendURLflv(URL){
-    window.location.href = `https://download-ytvideo.herokuapp.com/downloadflv?URL=${URL}`;
+    window.location.href = `https://try2-tyzx.onrender.com/downloadflv?URL=${URL}`;
 }
